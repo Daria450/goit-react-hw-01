@@ -1,0 +1,29 @@
+.table {
+    table-layout: fixed;
+    width: 600px;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: 30px;
+}
+
+thead {
+    width: 34%;
+    color: white;
+    background-color: black;
+}
+
+tbody>tr:nth-child(odd) {
+    background-color: rgb(193, 193, 193);
+}
+
+th,
+td {
+    padding: 5px;
+    text-align: center;
+    border: 1px solid black;
+
+    &:first-child {
+        text-transform: capitalize;
+    }
+
+}
